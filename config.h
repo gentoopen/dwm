@@ -14,12 +14,12 @@ static const int topbar             = 1;        /* 0 means bottom bar */
 static const char *fonts[]          = { "JetBrainsMono Nerd Font:size=9:style=Bold" };
 static const char dmenufont[]       = "JetBrainsMono Nerd Font:size=9:style=bold";
 // background
-static const char col_gray1[]       = "#1e1e2e";
+static const char col_gray1[]       = "#3B4252";
 static const char col_gray2[]       = "#444444";
 static const char col_gray3[]       = "#ffffff";
 static const char col_gray4[]       = "#1e1e2e";
 // windowname
-static const char col_cyan[]        = "#c678dd";
+static const char col_cyan[]        = "#5e81ac";
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
 	[SchemeNorm] = { col_gray3, col_gray1, col_gray2 },
@@ -42,7 +42,7 @@ static const Rule rules[] = {
 /* layout(s) */
 static const float mfact     = 0.55; /* factor of master area size [0.05..0.95] */
 static const int nmaster     = 1;    /* number of clients in master area */
-static const int resizehints = 1;    /* 1 means respect size hints in tiled resizals */
+static const int resizehints = 0;    /* 1 means respect size hints in tiled resizals */
 static const int lockfullscreen = 1; /* 1 will force focus on the fullscreen window */
 
 static const Layout layouts[] = {
